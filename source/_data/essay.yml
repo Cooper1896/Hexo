@@ -1,0 +1,11 @@
+- title: 闲言碎语
+  subTitle: 记录生活点滴
+  top_background: ""
+  limit: 10
+  buttonLink: /about/
+  buttonText: 关于本人
+  tips: 这里记录了一些碎碎念...
+  essay_list:
+    - content: 测试测试，新建站测试...over
+      date: 2025-05-03 12:00:00
+      from: Hexo

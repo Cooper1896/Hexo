@@ -1,0 +1,121 @@
+#article-container .tag-Link {
+    background: var(--anzhiyu-secondbg);
+    border-radius: 12px !important;
+    display: flex;
+    border: var(--style-border);
+    flex-direction: column;
+    padding: 1rem 1.5rem !important;
+    border-width: 1px !important;
+    margin: 1.5rem 0;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+#article-container .tag-Link:hover {
+    border: var(--style-border-hover);
+    background: var(--anzhiyu-card-bg);
+    transform: translateY(-2px);
+    box-shadow: var(--anzhiyu-shadow-main);
+}
+
+#article-container .tag-Link .tag-link-tips {
+    border-bottom: var(--style-border);
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: var(--anzhiyu-gray);
+    font-weight: normal;
+}
+
+#article-container .tag-Link:hover .tag-link-tips {
+    color: var(--anzhiyu-main);
+}
+
+#article-container .tag-Link .tag-link-bottom {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#article-container .tag-Link .tag-link-bottom .tag-link-left {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    background-size: cover;
+    border-radius: var(--anzhiyu-border-radius);
+    background-color: var(--anzhiyu-card-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#article-container .tag-Link .tag-link-bottom .tag-link-left i {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font-size: 32px;
+    color: var(--anzhiyu-fontcolor);
+}
+
+#article-container .tag-Link .tag-link-bottom .tag-link-right {
+    margin-left: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4;
+    color: var(--anzhiyu-fontcolor);
+}
+
+#article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-sitename {
+    font-size: 0.9rem;
+    color: var(--anzhiyu-gray);
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+#article-container .tag-Link:hover .tag-link-bottom .tag-link-right .tag-link-sitename {
+    color: var(--anzhiyu-main);
+}
+
+#article-container .tag-Link .tag-link-bottom i {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--anzhiyu-gray);
+}
+
+/* Homepage header gradient overlay */
+header#page-header{
+    position: relative;
+    overflow: visible;
+}
+
+header#page-header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 220px;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+    opacity: 0;
+    transition: opacity 300ms ease;
+    z-index: 2;
+}
+
+/* Make sure banner content sits above the overlay */
+.banners-title, #site-info, #site-subtitle{
+    position: relative;
+    z-index: 3;
+}
+
+/* Lighter gradient for light theme (override via data-theme if available) */
+html[data-theme="light"] header#page-header::after{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.85) 100%);
+}
