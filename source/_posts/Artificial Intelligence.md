@@ -5,7 +5,6 @@ description: '聊聊ai'
 image: ''
 tags: AI/Artificial Intelligence
 type: '杂谈'
-top_img: false
 ---
 
 想了很久，终于有时间来讲讲AI了，些许错误，多多包容
