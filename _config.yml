@@ -7,13 +7,13 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Cooper Liu
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://coliu.blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,6 +97,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: anzhiyu
+favicon: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/IMG_4303.PNG
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

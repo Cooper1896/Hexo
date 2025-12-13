@@ -12167,6 +12167,15 @@ h1.page-title + .tag-cloud-list {
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
+#random-banner #peoplecanvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+}
 #random-banner #random-hover {
   position: absolute;
   width: 100%;
@@ -12203,6 +12212,7 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: cubic-bezier(0.71, 0.15, 0.16, 1.15) 0.6s;
   transition: cubic-bezier(0.71, 0.15, 0.16, 1.15) 0.6s;
   font-size: 60px;
+  z-index: 10;
 }
 #random-banner #random-hover .bannerText {
   display: -webkit-box;
@@ -22299,6 +22309,38 @@ body[data-type="essay"] #page .author-content-item .card-content .banner-button-
   line-height: 30px !important;
   height: 40px !important;
   margin: 0 !important;
+}
+
+/* 闲言碎语独立评论区样式 */
+#bber .essay-comment-box {
+  border-top: 1px dashed var(--anzhiyu-theme-op);
+  padding-top: 15px;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#bber .essay-comment-box #twikoo,
+#bber .essay-comment-box #waline {
+  background: transparent;
+  border-radius: 12px;
+  padding: 0;
+}
+
+/* Twikoo 评论样式适配 */
+#bber .essay-comment-box .tk-config {
+  background: var(--anzhiyu-secondbg) !important;
+  border-radius: 12px !important;
+}
+
+/* Waline 评论样式适配 */
+#bber .essay-comment-box .waline-container {
+  background: transparent;
+  padding: 0;
+}
+
+#bber .essay-comment-box .waline {
+  background: transparent !important;
 }
 
 #bbTimeList {

@@ -112,5 +112,10 @@
       // fallback start
       setTimeout(start, 600);
     })();
-  setTimeout(initTypedOnce, 600);
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', initTypedOnce);
+  }else{
+    initTypedOnce();
+  }
 })();

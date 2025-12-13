@@ -48,7 +48,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Elegant1E/hexo-example)
 
-
 Use Vercel to deploy your own Hexo project.
 
 ### Deploy to Your Own Netlify
@@ -58,7 +57,9 @@ Use Vercel to deploy your own Hexo project.
 ### If you can provide more one-click deployment channels, please feel free to feedback to me in the Discussions.
 
 ## License
+
 This project is licensed under the GPL-3.0 license.
 
 ## Contributing
+
 If you find any bugs or have any suggestions, please feel free to open an issue in the GitHub repository.

@@ -6,6 +6,11 @@
   buttonText: 关于本人
   tips: 这里记录了一些碎碎念...
   essay_list:
-    - content: 测试测试，新建站测试...over
+    - id: essay-001
+      content: 测试测试，新建站测试...over
       date: 2025-05-03 12:00:00
+      from: Hexo
+    - id: essay-002
+      content: 第一个软件就要开发完成啦!!!
+      date: 2025-12-06 18:30:00
       from: Hexo

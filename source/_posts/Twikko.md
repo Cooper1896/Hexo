@@ -7,6 +7,7 @@ tags: [分享/博客]
 category: '杂谈'
 draft: false 
 lang: ''
+top_img: false
 ---
 
 Twikoo — "一个简洁、安全、免费的静态网站评论系统"
@@ -25,7 +26,7 @@ Twikoo — "一个简洁、安全、免费的静态网站评论系统"
 
 首先，你需要注册一个[MongoDB](https://account.mongodb.com/account/login)账号以获取一个免费的数据库
 
-{% link MongoDB Atlas | Twikoo 文档,一个简洁、安全、免费的静态网站评论系统,<https://twikoo.js.org/mongodb-atlas,/img/twikoo-logo.png> %}
+{% link MongoDB Atlas | Twikoo 文档,一个简洁、安全、免费的静态网站评论系统,https://twikoo.js.org/mongodb-atlas,https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/twikoo-logo-home.png %}
 
 区域选择: Region优先选择离主机近的站点，一般默认的就是。如果使用云主机就按其地理位置为准。
 设置好后，你将会得到类似的代码：
@@ -42,11 +43,11 @@ mongodb+srv://<db_username>:<db_password>@cluster0.xxx.mongodb.net/?retryWrites.
 
 使用你的Github账户来登录Vercel
 
-{% link Dashboard,Vercel Dashboard,<https://vercel.com,/images/link-default.png> %}
+{% link Dashboard,Vercel Dashboard,https://vercel.com,https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/orig %}
 
 再点击下面的链接来快速部署
 
-{% link New Project – Vercel,,<https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimaegoo%2Ftwikoo%2Ftree%2Fmain%2Fsrc%2Fserver%2Fvercel-min&teamSlug=brizens-projects,https://assets.vercel.com/image/upload/front/import/og.png> %}
+{% link New Project – Vercel,New Project,https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimaegoo%2Ftwikoo%2Ftree%2Fmain%2Fsrc%2Fserver%2Fvercel-min&teamSlug=brizens-projects,https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/orig %}
 
 `Git Providers`选择`Github`，`Git Scope`选择自己的账户，`Private Repository Name`为你的库命名。
 
@@ -74,7 +75,7 @@ Value:mongodb+srv://<db_username>......<此处需要更改为你上面获取到�
 
 可以跟随其他大大的教程设置本地文件，伟大无需多言
 
-{% link 给你的 Fuwari 接入 Twikoo 评论 - 咸鱼小窝,Fuwari 博客接入 Twikoo 评论,<https://blog.qqquq.com/posts/fuwari-twikoo-comments/,https://blog.qqquq.com/favicon/favicon-light-32.png> %}
+{% link 给你的 Fuwari 接入 Twikoo 评论 - 咸鱼小窝,Fuwari 博客接入 Twikoo 评论,https://blog.qqquq.com/posts/fuwari-twikoo-comments/,https://blog.qqquq.com/favicon/favicon-light-32.png %}
 
 其中，请将上面复制的域名复制到`envID`,并将<username>,<password>修改成你设置的账号和密码。
 
